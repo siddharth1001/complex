@@ -1,4 +1,3 @@
-## A NodeJs app using k8s
 
 
 # Kubernetes
