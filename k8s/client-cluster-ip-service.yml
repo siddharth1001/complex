@@ -5,7 +5,7 @@ metadata:
 spec:
     type: ClusterIP
     selector:
-        compoenent: web
+        component: web
     ports:
         - port: 3000        # Inside the cluster, the service is visible via this port
           targetPort: 3000  # Which port do pods selected by this service expose?
