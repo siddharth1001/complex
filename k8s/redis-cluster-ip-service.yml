@@ -5,7 +5,7 @@ metadata:
 spec:
     type: ClusterIP
     selector:
-        compoenent: redis
+        component: redis
     ports:
         - port: 6379        # Inside the cluster, the service is visible via this port
           targetPort: 6379  # Which port do pods selected by this service expose?
