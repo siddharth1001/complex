@@ -5,7 +5,7 @@ metadata:
 spec:
     type: ClusterIP
     selector:
-        compoenent: postgres
+        component: postgres
     ports:
         - port: 5432        # Inside the cluster, the service is visible via this port
           targetPort: 5432  # Which port do pods selected by this service expose?

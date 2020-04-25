@@ -48,6 +48,10 @@ kubectl create secret generic pgpassword --from-literal PGPASSWORD=password
  kubectl delete deployment postgres-deployment
  ```
 
+Redeploy/Restart Deployments: (shortcut)
+```
+kubectl scale deployment client-deployment --replicas=0
+```
 
  ### Sidenotes:
 
