@@ -53,5 +53,11 @@ Redeploy/Restart Deployments: (shortcut)
 kubectl scale deployment client-deployment --replicas=0
 ```
 
+### Helm:
+Helm is a program to administer 3rd party softwares inside k8s cluster.
+(3rd party softwares like ingress-nginx)
+
+[command we issue] ---> [helm client] ---> [tiller server]
+
  ### Sidenotes:
 
