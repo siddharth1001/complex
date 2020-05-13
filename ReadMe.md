@@ -60,4 +60,12 @@ Helm is a program to administer 3rd party softwares inside k8s cluster.
 [command we issue] ---> [helm client] ---> [tiller server]
 
  ### Sidenotes:
+Minikube start with virtualbox (working with Virtual VM - not with hyperkit.):
+```
+minikube start --driver=virtualbox
+```
 
+Use -A option to list the requested object(s) across all namespaces:
+```
+Eg. kubectl get -A deployments
+```
